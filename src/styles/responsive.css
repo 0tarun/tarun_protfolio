@@ -48,12 +48,6 @@
 
 /* ─── Mobile Nav Breakpoint (≤860px) ─── */
 @media (max-width: 860px) {
-  /* Disable vertical page scrolling on small screens per user request */
-  html, body {
-    height: 100vh;
-    overflow: hidden;
-    -webkit-overflow-scrolling: auto;
-  }
   .nav-links {
     display: none;
   }
